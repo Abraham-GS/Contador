@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script>
+        function Suma_Puntos() {
+            obtiene = document.getElementById("Taco");//Aqui obtiene el valor de la etiqueta con ese id
+            obtiene.value = parseInt(obtiene.value)+45;//Aqui incrementa el valor (Puede ser el valor que quieras)
+        }
+    </script>
+</head>
+<body>
+    <input type="text" value="0" id="Taco"><!-- Este el id de donde obtenemos el valor-->
+    <input type="button" value="Sumar_Puntos" onclick="Suma_Puntos()"><!-- A este boton le decimos que ejecute la funcion con "onclick="Suma_Puntos""-->
+</body>
+</html>
